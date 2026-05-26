@@ -1,6 +1,6 @@
 function Reviews() {
   return (
-    <section id="reviews" className="bg-gray-950 py-20 px-10">
+    <section id="reviews" className="bg-gray-950 py-20 px-4 md:px-10">
 
       <h1 className="text-white text-4xl font-bold text-center mb-12">
         What People Say

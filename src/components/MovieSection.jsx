@@ -109,7 +109,7 @@ function MovieSection() {
 },
   ]
   return (
-    <section id="movies" className="bg-black px-10 py-16">
+    <section id="movies" className="bg-black px-4 md:px-10 py-16">
 
       <h1 className="text-white text-4xl font-bold mb-10 text-center">
         Trending Movies

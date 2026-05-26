@@ -5,12 +5,12 @@ function MovieCard({ title, image, rating }) {
       <img
         src={image}
         alt={title}
-        className="w-full h-[400px] object-cover"
+        className="w-full h-[300px] md:h-[400px] object-cover"
       />
 
       <div className="p-5">
 
-        <h2 className="text-white text-2xl font-bold mb-2">
+        <h2 className="text-white text-xl md:text-2xl font-bold mb-2">
           {title}
         </h2>
 
