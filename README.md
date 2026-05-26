@@ -1,4 +1,4 @@
-🎬 CineVerse
+R🎬 CineVerse
 
 CineVerse is a simple and modern movie review landing page built using React.js and Tailwind CSS. The website showcases trending movies, ratings, and audience reviews through a clean and responsive dark-themed interface inspired by modern streaming platforms.
 
@@ -103,7 +103,7 @@ Trending Movies Section
 
 Reviews Section
 
-![Reviews](./public/screenshots/reviews.png)
+![Reviews](./public/screenshots/Reviews.png)
 
 📖 Project Description
 
