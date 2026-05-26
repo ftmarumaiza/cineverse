@@ -20,7 +20,7 @@ This project was created to practice React components, responsive web design, sm
 
 ---
 
- 🛠️ Tech Stack
+🛠️ Tech Stack
 
 - React.js
 - Vite
@@ -54,32 +54,43 @@ src/
 
 🚀 Getting Started
 
- Clone the Repository
+Clone the Repository
 
 ```bash
 git clone https://github.com/ftmarumaiza/cineverse.git
 ```
 
- Navigate to Project Folder
+Navigate to Project Folder
 
 ```bash
 cd cineverse
 ```
 
- Install Dependencies
+Install Dependencies
 
 ```bash
 npm install
 ```
 
- Run Development Server
+Run Development Server
 
 ```bash
 npm run dev
 ```
-🌐 GitHub Repository
+
+---
+
+🌐 Live Demo
+
+https://cineverse-app-kohl.vercel.app/
+
+---
+
+📌 GitHub Repository
 
 https://github.com/ftmarumaiza/cineverse
+
+---
 
 📖 Project Description
 
@@ -88,20 +99,24 @@ CineVerse is a frontend React project developed to improve practical skills in R
 The landing page uses reusable React components and array mapping for displaying movie cards dynamically. Tailwind CSS is used to create a modern responsive UI with smooth hover effects, spacing, typography, and dark-themed styling.
 
 This project demonstrates:
+
 - Component-based architecture
 - Responsive web design
 - React props and mapping
 - Smooth scrolling navigation
 - Modern UI/UX practices
 
- 👩‍💻 Author
+---
+
+👩‍💻 Author
 
 Fathima Rumaiza
 
-GitHub:
+GitHub:  
 https://github.com/ftmarumaiza
 
+---
 
-# ⭐ Support
+⭐ Support
 
 If you like this project, consider giving it a star on GitHub ⭐
