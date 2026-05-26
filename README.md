@@ -91,6 +91,19 @@ https://cineverse-app-kohl.vercel.app/
 https://github.com/ftmarumaiza/cineverse
 
 ---
+📸 Screenshots
+
+Home Page
+
+![Home](./public/screenshots/home.png)
+
+Trending Movies Section
+
+![Movies](./public/screenshots/movies.png)
+
+Reviews Section
+
+![Reviews](./public/screenshots/reviews.png)
 
 📖 Project Description
 
