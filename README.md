@@ -103,7 +103,7 @@ Trending Movies Section
 
 Reviews Section
 
-![Reviews](./public/screenshots/reviews.png)
+![Reviews](./public/screenshots/Reviews.png)
 
 📖 Project Description
 
