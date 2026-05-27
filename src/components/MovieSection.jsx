@@ -109,28 +109,27 @@ function MovieSection() {
 },
   ]
   return (
-    <section id="movies" className="bg-black px-4 md:px-10 py-16">
+    <section id="movies" className="bg-black py-20 px-6 sm:px-10">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-white text-3xl md:text-5xl font-extrabold mb-12 text-center tracking-tight bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+          Trending Movies
+        </h2>
 
-      <h1 className="text-white text-4xl font-bold mb-10 text-center">
-        Trending Movies
-      </h1>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-
-        {movies.map((movie, index) => (
-          <MovieCard
-            key={index}
-            title={movie.title}
-            rating={movie.rating}
-            image={movie.image}
-          />
-        ))}
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-8 justify-items-center">
+          {movies.map((movie, index) => (
+            <MovieCard
+              key={index}
+              title={movie.title}
+              rating={movie.rating}
+              image={movie.image}
+            />
+          ))}
+        </div>
       </div>
-
     </section>
   )
 }
 
 export default MovieSection
+
  
