@@ -82,7 +82,7 @@ npm run dev
 
 🌐 Live Demo
 
-https://cineverse-app-kohl.vercel.app/
+https://cineverse-app-dvxx.vercel.app/
 
 ---
 
