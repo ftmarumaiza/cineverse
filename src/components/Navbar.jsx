@@ -15,7 +15,6 @@ function Navbar() {
         <a href="#">CineVerse</a>
       </h1>
 
-      {/* Desktop Navigation Links */}
       <ul className="hidden md:flex gap-8 text-base font-semibold">
         {navLinks.map((link) => (
           <li key={link.label}>
@@ -29,7 +28,6 @@ function Navbar() {
         ))}
       </ul>
 
-      {/* Mobile Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="md:hidden text-white focus:outline-none p-2 hover:bg-gray-900/60 rounded-lg transition-colors duration-200"
@@ -60,7 +58,6 @@ function Navbar() {
         </svg>
       </button>
 
-      {/* Mobile Navigation Drawer */}
       <div
         className={`absolute top-full left-0 w-full bg-black/95 backdrop-blur-lg border-b border-gray-900 transition-all duration-300 ease-in-out md:hidden ${
           isOpen

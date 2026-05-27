@@ -2,7 +2,6 @@ function MovieCard({ title, image, rating }) {
   return (
     <div className="group bg-gray-950/60 backdrop-blur-md rounded-2xl overflow-hidden border border-gray-900 hover:border-red-600/40 hover:shadow-[0_0_30px_rgba(220,38,38,0.15)] hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between w-full max-w-[280px] sm:max-w-none">
       
-      {/* Poster Image Container with 2:3 Cinematic Aspect Ratio */}
       <div className="relative overflow-hidden aspect-[2/3] w-full bg-gray-900">
         <img
           src={image}
@@ -11,7 +10,6 @@ function MovieCard({ title, image, rating }) {
           loading="lazy"
         />
         
-        {/* Dark overlay and play button on hover */}
         <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
           <div className="bg-red-600 p-4 rounded-full text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 shadow-lg shadow-red-600/50">
             <svg
@@ -25,7 +23,6 @@ function MovieCard({ title, image, rating }) {
         </div>
       </div>
 
-      {/* Details Container */}
       <div className="p-4 flex-grow flex flex-col justify-between">
         <h3 className="text-white text-base sm:text-lg font-bold mb-2 line-clamp-1 group-hover:text-red-500 transition-colors duration-200" title={title}>
           {title}
